@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('/static/fonts/roboto/Roboto-Black.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Roboto-BlackItalic';
+    src: url('/static/fonts/roboto/Roboto-BlackItalic.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('/static/fonts/roboto/Roboto-Regular.ttf') format('ttf');
+}
+
+
+#hero-1 {
+    background-image: url('/images/background.png');
+}
+
+.full-bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main-nav {
+    
+}
+
+.full {
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Avenir Next', 'Roboto-Bold';
+    font-size: 72px;
+}
+h6 {
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+p {
+    font-family: 'Roboto';
+    font-size: 18px;
+}

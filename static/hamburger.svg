@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="19px" viewBox="0 0 28 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page" transform="translate(-1352.000000, -40.000000)" fill="#FFFFFF">
+            <g id="Header">
+                <path d="M1378.6,48 L1353.4,48 C1352.6272,48 1352,48.672 1352,49.5 C1352,50.328 1352.6272,51 1353.4,51 L1378.6,51 C1379.3728,51 1380,50.328 1380,49.5 C1380,48.672 1379.3728,48 1378.6,48 M1378.6,56 L1353.4,56 C1352.6272,56 1352,56.672 1352,57.5 C1352,58.328 1352.6272,59 1353.4,59 L1378.6,59 C1379.3728,59 1380,58.328 1380,57.5 C1380,56.672 1379.3728,56 1378.6,56 M1353.4,43 L1378.6,43 C1379.3728,43 1380,42.328 1380,41.5 C1380,40.672 1379.3728,40 1378.6,40 L1353.4,40 C1352.6272,40 1352,40.672 1352,41.5 C1352,42.328 1352.6272,43 1353.4,43" id="Menu-Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>
