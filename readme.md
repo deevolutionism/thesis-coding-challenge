@@ -1,0 +1,14 @@
+# some design considerations
+This page relies heavily on flex box. While flex box is great
+for handling responsiveness, it does have a few kinks which 
+are aparent in this particular design.
+
+bugs
+1. text appears to scale while using chrome's responsive inspector
+2. reducing the height of the browser window will push the main content up, hiding it beyond the window.
+3. text is scaled down by the browser on mobile devices.
+
+The root cause of these issues is likely because they are all children and rely on flex for positioning alnd layout.
+solutions to the problems would require a few design changes that mainly affect the header and footer components.
+Rather than the footer being a child of the main section content, it would need to be moved out and become a sibling. This way their position in the document would be based block-like and independant of flex positioning. flex would still be used to position items within the nav - but would not be necessary to position the nav itself.
+
