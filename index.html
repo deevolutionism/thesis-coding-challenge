@@ -5,29 +5,71 @@
         <title>Simple way to organize your inspirations</title>
         <meta name="description" content="I think what motivates people is not great hate, but great love for other people.">
         <link rel="stylesheet" href="static/index.css">
+        
     </head>
     <body>
-        <section id="hero-1" class="full">
-            <nav class="main-nav">
-                <img src="/static/images/logo.png"/>
-                <div>
-                    <a href="#"><p>About</p></a>
-                    <a href="#"><p>Integrations</p></a>
-                    <a href="#"><p>Pricing</p></a>
-                    <a href="#"><p>Contacts</p></a>
+        <header>
+            <nav class="main-nav white container">
+                <img class="logo" src="/static/images/logo.png"/>
+                <div class="menu row-sm">
+                    <a href="#" class="white"><p>About</p></a>
+                    <a href="#" class="white"><p>Integrations</p></a>
+                    <a href="#" class="white"><p>Pricing</p></a>
+                    <a href="#" class="white"><p>Contacts</p></a>
                 </div>
-                <img src="/static/hamburger.svg"/>
             </nav>
+        </header>
+        <nav id="drawer">
+            <div id="mobile-menu" class="menu">
+                <a href="#"><p>About</p></a>
+                <a href="#"><p>Integrations</p></a>
+                <a href="#"><p>Pricing</p></a>
+                <a href="#"><p>Contacts</p></a>
+                <a><p>help</p></a>
+                <a><p>terms of use</p></a>
+                <a><p>privacy policy</p></a>
+            </div>
+        </nav>
+        <section id="hero-1" class="full full-bg-image white center">
             <nav class="mobile-nav">
-                <img src="/static/images/logo.png"/>
-                <div>
-                    <a href="#"><p>About</p></a>
-                    <a href="#"><p>Integrations</p></a>
-                    <a href="#"><p>Pricing</p></a>
-                    <a href="#"><p>Contacts</p></a>
-                </div>
-                <img src="/static/hamburger.svg"/>
+                <div class="row justify-between">
+                    <img src="/static/images/logo.png"/>
+                    <img id="hamburger" class='hamburger' src="/static/hamburger.svg"/>
+                </div>            
             </nav>
+            <div class="main">
+                <div class="content-container">
+                    <h1>Simple Way to<br>Organize Your<br>Inspirations</h1>
+                    <p>I think what motivates people is not great hate,<br>but great love for other people</p>
+                </div>
+                <div class="content-container">
+                    <div class="">
+                    <h4 class="uppercase text-center">sign up for free</h4>
+                    </div>
+                    <form>
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="E-mail">
+                        <input id="password-field" type="password" name="Password" placeholder="Password">
+                        <input class="btn" type="submit" name="submit" value="Sign up  >">
+                    </form>
+                    <div class="mt-1">
+                        <h6 class="text-center grey">By clicking "Sign Up" I agree to our</h6>
+                        <h6 class="text-center">Terms of Service</h6>
+                    </div>
+                </div>
+           </div>
+           <footer>
+                <div class="container white row justify-between">
+                    <div class="ml-5"><h6>2016 stamp. All rights reserved</h6></div>
+                    <div class="menu row white uppercase desktop">
+                        <a><p>contact</p></a>
+                        <a><p>help</p></a>
+                        <a><p>terms of use</p></a>
+                        <a><p>privacy policy</p></a>
+                    </div>
+                </div>
+            </footer>
         </section>
+        <script src="/static/script.js"></script>
     </body>
 </html>
