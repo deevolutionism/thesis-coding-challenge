@@ -12,6 +12,20 @@ function mobileNav() {
         }
    }) 
 }
-console.log('hello')
 
+function passwordVisibilityToggle() {
+    let passwordInput = document.getElementById('password-field')
+    let passwordVisibility = document.getElementById('passwordVisibilityIcon')
+    passwordVisibility.addEventListener("click", () => {
+        if(passwordVisibility.classList.contains('active')) {
+            passwordVisibility.classList.remove('active')
+            passwordInput.type = 'password'
+        } else {
+            passwordVisibility.classList.add('active')
+            passwordInput.type = 'text'
+        }
+    })
+}
+
+passwordVisibilityToggle()
 mobileNav()
