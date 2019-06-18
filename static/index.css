@@ -169,6 +169,7 @@ header {
     width: 100%;
     margin: 0 auto;
     top: 70px;
+    z-index: 99;
     opacity: 0;
     display: none;
     transition: all 300ms ease-out;

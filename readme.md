@@ -13,11 +13,11 @@ solutions to the problems would require a few design changes that mainly affect 
 Rather than the footer being a child of the main section content, it would need to be moved out and become a sibling. This way their position in the document would be based block-like and independant of flex positioning. flex would still be used to position items within the nav - but would not be necessary to position the nav itself.
 
 changes
-1. the hamburger has been removed from desktop size, but will shop up on tablet / mobile screeens.
+1. the hamburger has been removed from desktop size, but will show up on tablet / mobile screeens.
 2. footer menu will appear in the mobile hambuger menu instead because the text will not fit on mobile otherwise.
 
 
 outstanding
-1. mobile
+1. mobile performance considerations the 
 2. add password view toggle
 
