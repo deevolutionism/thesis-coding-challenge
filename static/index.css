@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Roboto-Black';
-    src: url('/static/fonts/roboto/Roboto-Black.ttf') format('truetype');
+    src: url('//static/fonts/roboto/Roboto-Black.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Roboto-BlackItalic';
-    src: url('/static/fonts/roboto/Roboto-BlackItalic.ttf') format('truetype');
+    src: url('//static/fonts/roboto/Roboto-BlackItalic.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Roboto';
-    src: url('/static/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    src: url('//static/fonts/roboto/Roboto-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Roboto-Bold';
-    src: url('/static/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    src: url('//static/fonts/roboto/Roboto-Bold.ttf') format('truetype');
 }
 
 body {
@@ -184,12 +184,9 @@ header {
 
 #drawer .menu {
     overflow-y: hidden;
-    /* height: 0px; */
     transition: all 300ms ease-out;
-    /* background-color: darkgray;? */
     display: flex;
     flex-direction: column;
-    /* margin-right: 50px; */
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -287,6 +284,8 @@ footer .menu {
     margin-right: 50px;
 }
 
+
+/* media queries */
 @media screen and (max-width: 1024px) {
     #hero-1 .main h1 {
         font-size: 42px;
@@ -299,6 +298,12 @@ footer .menu {
     }
     #hero-1 .main:first-child {
         margin-right: 0px!important;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    #drawer.active {
+        display: none;
     }
 }
 

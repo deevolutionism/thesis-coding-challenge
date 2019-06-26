@@ -1,10 +1,12 @@
-# some design considerations
+# Thesis project challenge
+
+## overview
 This page relies heavily on flex box. While flex box is great
 for handling responsiveness, it does have a few kinks which 
 are aparent in this particular design.
 
-bugs
-1. text appears to scale while using chrome's responsive inspector
+### bugs
+1. text scales with screen size
 2. reducing the height of the browser window will push the main content up, hiding it beyond the window.
 3. text is scaled down by the browser on mobile devices.
 
